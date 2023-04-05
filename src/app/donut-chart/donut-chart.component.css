@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+
+.donutChart{
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.circle{
+    position: relative;
+    top: -238px;
+    left: 326px;
+    width: 100px;
+}
+.circleOne{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    border:1px solid #F05C5B; background-color: #F05C5B;
+    box-shadow: inset 0px 3px 3px #3434342E;
+}
+.circleTwo{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    width: 15px; height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    border:1px solid #EB7600;
+    background-color: #EB7600;
+    box-shadow: inset 0px 3px 3px #3434342E;
+}
+.circleThree{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 15px; height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    border:1px solid #F4AE3B;
+    background-color: #F4AE3B;
+    box-shadow: inset 0px 3px 3px #3434342E;
+}
+.circleFour{
+    position: absolute; width: 15px;
+    top: 105px;
+    left: 0px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #F4AE3B; box-shadow: inset 0px 3px 3px #3434342E; 
+    border:1px solid #248318;
+    background-color: #248318; box-shadow: inset 0px 3px 3px #3434342E;
+}
+.line{
+    width: 20px;
+    height: 0px;
+    opacity: 1;
+    position: relative;
+    top: 7px;
+    left: 20px;
+}
+.text{
+    font-size: 13px;
+    width: 300px;
+    position: relative;
+    top: -3px;
+    left: 50px;
+    font-family: 'Lexand Deca', sans-serif;
+}
